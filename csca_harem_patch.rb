@@ -13,5 +13,8 @@ class Game_Party < Game_Unit
     for i in 0...CSCA_ENCYCLOPEDIA::DESCRIPTION.size
       @csca_descriptions[i] = CSCA_ENCYCLOPEDIA::DESCRIPTION[i]
     end
+    for i in 0...CSCA_ENCYCLOPEDIA::IMAGE.size
+      @csca_images[i] = CSCA_ENCYCLOPEDIA::IMAGE[i]
+    end
   end
 end
