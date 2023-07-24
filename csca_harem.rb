@@ -258,6 +258,7 @@ module CSCA_ENCYCLOPEDIA # Don't touch this.
   DESCRIPTION[32] = [32,["Spoiler"]]
   DESCRIPTION[33] = [33,["Chaos"]]
   DESCRIPTION[34] = [34,["Genderbent Shardholder"]]
+  DESCRIPTION[35] = [35, ["On Demand King"]]
   
   # Image shown in the information window of custom categories.
   # image path is relative to the main project folder. Omit or set to nil if not using.
@@ -296,6 +297,7 @@ module CSCA_ENCYCLOPEDIA # Don't touch this.
   IMAGE[32] = "Graphics/Pictures/Spoiler.png"
   IMAGE[33] = "Graphics/Pictures/Lilith grey.png"
   IMAGE[34] = "Graphics/Pictures/Estaven.png"
+  IMAGE[35] = "Graphics/Pictures/Nyst.png"
   
   # KEYS[x] = [Name, image path, description array, key, id, custom text 1,
   # custom text 2]
@@ -376,6 +378,8 @@ module CSCA_ENCYCLOPEDIA # Don't touch this.
   :other,33]
   KEYS[34] = ["Estaven",IMAGE[34],DESCRIPTION[34],
   :other,34]
+  KEYS[35] = ["Nyst",IMAGE[35],DESCRIPTION[35],
+  :other,35]
   
   # CUSTOM[x] = [Category Name, key, text for unknown description]
   # The key determines which KEYS will be shown in each category; their keys
